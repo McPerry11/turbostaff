@@ -9,6 +9,7 @@
 	<meta property="og:description" content="TURBOSTAFF SERVICES is a sole proprietorship business that provides a full range of messenger services in Metro Manila and some provinces of Luzon, Visayas and Mindanao that focuses on providing professional,classified, high-quality service, customer satisfaction and reliable partner for all your needs. We offer economical service without compromising the quality of our service.">
 	<meta property="og:url" content="https://turbostaffservices.co">
 	<meta property="og:site_name" content="TurboStaff Services">
+	<link rel="canonical" href="https://turbostaffservices.co">
 
 	<!-- Tab Icon -->
 	<link rel="icon" href="{{ asset('img/icon.PNG') }}">
@@ -18,12 +19,12 @@
 
 	<link rel="stylesheet" type="text/css" href="{{ asset('css/styles.css') }}">
 
-	<title>TurboStaff Services</title>
+	<title>TurboStaff Services Website</title>
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-white py-3 sticky-top">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="#"><img src="{{ asset('img/logo.png') }}" alt="TurboStaff logo"></a>
+			<a class="navbar-brand"><img src="{{ asset('img/logo.png') }}" alt="TurboStaff logo"></a>
 
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
 				<span class="navbar-toggler-icon"></span>
@@ -41,7 +42,7 @@
 
 	<div class="banner section d-flex flex-column pb-5">
 		<h1 class="display-1 align-self-center mt-5 pt-5 text-primary text-center" style="text-shadow: 2px 2px 12px black;">WE PROVIDE HIGH-QUALITY SERVICE</h1>
-		<i class="fas fa-arrow-down align-self-center mt-auto text-accent"></i>
+		<a id="arrow" class="align-self-center mt-auto" href="#who-we-are"><i class="fas fa-arrow-down text-accent"></i></a>
 	</div> 
 
 	<div id="who-we-are" class="who-we-are section container-fluid bg-primary">
@@ -191,13 +192,15 @@
 	<!-- FontAwesome -->
 	<script src="https://kit.fontawesome.com/34a54bc82b.js" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+	<script src="{{ asset('js/jquery-3.5.1.min.js') }}"></script>
 	<script>
+		$(window).scroll(function() {
+			$(this).scrollTop() > 200 ? $('#arrow').fadeOut() : $('#arrow').fadeIn();
+		});
+
 		if ( window.history.replaceState ) {
 			window.history.replaceState( null, null, window.location.href );
 		}
-	</script>
-	<script>
-
 	</script>
 </body>
 </html>
