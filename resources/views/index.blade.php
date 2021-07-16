@@ -5,11 +5,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="TURBOSTAFF SERVICES is a sole proprietorship business that provides a full range of messenger services in Metro Manila and some provinces of Luzon, Visayas and Mindanao that focuses on providing professional,classified, high-quality service, customer satisfaction and reliable partner for all your needs. We offer economical service without compromising the quality of our service.">
-	<meta name="robots" content="all">
-	<meta property="og:title" content="TurboStaff Services">
+	<meta property="og:title" content="TurboStaff Services Website">
 	<meta property="og:description" content="TURBOSTAFF SERVICES is a sole proprietorship business that provides a full range of messenger services in Metro Manila and some provinces of Luzon, Visayas and Mindanao that focuses on providing professional,classified, high-quality service, customer satisfaction and reliable partner for all your needs. We offer economical service without compromising the quality of our service.">
-	<meta property="og:url" content="">
-	<meta property="og:site_name" content="TurboStaff">
+	<meta property="og:url" content="https://turbostaffservices.co">
+	<meta property="og:site_name" content="TurboStaff Services">
 
 	<!-- Tab Icon -->
 	<link rel="icon" href="{{ asset('img/icon.PNG') }}">
