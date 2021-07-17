@@ -52,6 +52,7 @@ h6 {
 
 .banner {
 	background-image: url('../img/box.jpg');
+	background-position: 'center';
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 90vh;
@@ -84,6 +85,7 @@ h6 {
 
 .banner2 {
 	background-image: url('../img/motorcycle1.jpg');
+	background-position: 'top';
 	height: 80vh;
 	background-size: cover;
 	background-position: top;
