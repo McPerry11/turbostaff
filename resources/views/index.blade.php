@@ -8,6 +8,7 @@
 	<meta name="description" content="TURBOSTAFF SERVICES is a sole proprietorship business that provides a full range of messenger services in Metro Manila and some provinces of Luzon, Visayas and Mindanao that focuses on providing professional,classified, high-quality service, customer satisfaction and reliable partner for all your needs. We offer economical service without compromising the quality of our service.">
 	<meta property="og:title" content="TurboStaff Services Website">
 	<meta property="og:image" content="{{ asset('img/icon.PNG') }}">
+	<meta property="og:image:alt" content="Turbostaff Services Logo">
 	<meta property="og:description" content="TURBOSTAFF SERVICES is a sole proprietorship business that provides a full range of messenger services in Metro Manila and some provinces of Luzon, Visayas and Mindanao that focuses on providing professional,classified, high-quality service, customer satisfaction and reliable partner for all your needs. We offer economical service without compromising the quality of our service.">
 	<meta property="og:url" content="https://turbostaffservices.co">
 	<meta property="og:site_name" content="TurboStaff Services">
@@ -15,7 +16,7 @@
 	<link rel="canonical" href="https://turbostaffservices.co">
 
 	<!-- Tab Icon -->
-	<link rel="icon" href="{{ asset('img/icon.PNG') }}">
+	<link rel="icon" href="{{ asset('img/logo2.png') }}">
 	<!-- Bootstrap CSS -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="{{ asset('css/styles.css') }}">
