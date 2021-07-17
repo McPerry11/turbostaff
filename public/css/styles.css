@@ -110,6 +110,10 @@ h6 {
 	/*margin-top: 10em;*/
 }
 
+.alert {
+	display: none;
+}
+
 /*bootstrap*/
 .bg-primary {
 	background-color: #4c4845 !important;

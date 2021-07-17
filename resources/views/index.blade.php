@@ -7,6 +7,7 @@
 	<meta name="csrf-token" content="{{ csrf_token() }}">
 	<meta name="description" content="TURBOSTAFF SERVICES is a sole proprietorship business that provides a full range of messenger services in Metro Manila and some provinces of Luzon, Visayas and Mindanao that focuses on providing professional,classified, high-quality service, customer satisfaction and reliable partner for all your needs. We offer economical service without compromising the quality of our service.">
 	<meta property="og:title" content="TurboStaff Services Website">
+	<meta property="og:image" content="{{ asset('img/logo2.png') }}">
 	<meta property="og:description" content="TURBOSTAFF SERVICES is a sole proprietorship business that provides a full range of messenger services in Metro Manila and some provinces of Luzon, Visayas and Mindanao that focuses on providing professional,classified, high-quality service, customer satisfaction and reliable partner for all your needs. We offer economical service without compromising the quality of our service.">
 	<meta property="og:url" content="https://turbostaffservices.co">
 	<meta property="og:site_name" content="TurboStaff Services">
@@ -164,7 +165,7 @@
 					<p class="text-secondary">Your opinions are important to us. Whether it is a simple question or a valuable suggestion, we are here 24/7. You can call us by phone or email us directly.</p>
 					<hr>
 					<i class="fas fa-phone-alt"></i>
-					<p class="d-inline ms-2">027-980-1411</p><br>
+					<p class="d-inline ms-2">0927-980-1411</p><br>
 					<i class="fas fa-phone-alt" style="color:white"></i>
 					<p class="d-inline ms-2">0917-962-2205</p><br>
 					<i class="fas fa-envelope"></i>
@@ -173,6 +174,8 @@
 					<p class="d-inline ms-2">book@turbostaffservices.com</p><br>
 				</div>
 				<div class="col-md-6 email p-4">
+					<div class="alert alert-success"><button type="button" class="btn-close float-end"></button>Email sent successfully!</div>
+					<div class="alert alert-danger"><button type="button" class="btn-close float-end"></button>An error occured while processing your request. Please try again later.</div>
 					<h5 class="mb-3">EMAIL US</h5>
 					<form>
 						<div class="mb-3">
