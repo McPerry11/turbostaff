@@ -27,10 +27,10 @@ h6 {
 	padding-right: 3em;
 }
 .navbar-brand img {
-	width: 150px;
+	width: 100px;
 }
 .nav-link {
-	font-size: .9em;
+	font-size: 1.05em;
 	font-weight: 200;
 	padding-right: 2.25em !important;
 }
@@ -44,9 +44,8 @@ h6 {
 	opacity: 0.6;
 }
 
-
 .banner {
-	background-image: url('../img/high-quality.jpg');
+	background-image: url('../img/box.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 90vh;
@@ -56,8 +55,7 @@ h6 {
 	font-weight: 700;
 }
 .banner i {
-	font-size: 3em;
-	color:  white;
+	font-size: 4em;
 }
 
 .section {
@@ -79,17 +77,20 @@ h6 {
 }
 
 .banner2 {
-	background-image: url('../img/true-to-service.jpg');
+	background-image: url('../img/motorcycle1.jpg');
 	height: 80vh;
 	background-size: cover;
-	background-position: center;
+	background-position: top;
 }
 .banner2 .layer {
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(0, 0, 0, 0.2);
 	width: 100%;
 	height: 100%;
 }
 
+.what-we-offer {
+	padding-bottom: 13em;
+}
 .what-we-offer .hr-title {
 	border-top: 2px solid #4c4845;
 }
@@ -103,8 +104,11 @@ h6 {
 .contact-us .email {
 	background-color: #f0f0f0;
 }
-
-
+.group {
+	width: 100%;
+	height: auto;
+	/*margin-top: 10em;*/
+}
 
 /*bootstrap*/
 .bg-primary {

@@ -4,6 +4,7 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="csrf-token" content="{{ csrf_token() }}">
 	<meta name="description" content="TURBOSTAFF SERVICES is a sole proprietorship business that provides a full range of messenger services in Metro Manila and some provinces of Luzon, Visayas and Mindanao that focuses on providing professional,classified, high-quality service, customer satisfaction and reliable partner for all your needs. We offer economical service without compromising the quality of our service.">
 	<meta property="og:title" content="TurboStaff Services Website">
 	<meta property="og:description" content="TURBOSTAFF SERVICES is a sole proprietorship business that provides a full range of messenger services in Metro Manila and some provinces of Luzon, Visayas and Mindanao that focuses on providing professional,classified, high-quality service, customer satisfaction and reliable partner for all your needs. We offer economical service without compromising the quality of our service.">
@@ -12,19 +13,18 @@
 	<link rel="canonical" href="https://turbostaffservices.co">
 
 	<!-- Tab Icon -->
-	<link rel="icon" href="{{ asset('img/icon.PNG') }}">
-
+	<link rel="icon" href="{{ asset('img/icon.png') }}">
 	<!-- Bootstrap CSS -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
 	<link rel="stylesheet" type="text/css" href="{{ asset('css/styles.css') }}">
 
-	<title>TurboStaff Services Website</title>
+	<title>TurboStaff Services</title>
 </head>
+
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-white py-3 sticky-top">
+	<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-1 sticky-top">
 		<div class="container-fluid">
-			<a class="navbar-brand"><img src="{{ asset('img/logo.png') }}" alt="TurboStaff logo"></a>
+			<a class="navbar-brand" href="#"><img src="{{ asset('img/logo2.png') }}" alt="TurboStaff logo"></a>
 
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
 				<span class="navbar-toggler-icon"></span>
@@ -58,7 +58,10 @@
 					</div>
 				</div>
 				<h1 class="text-center text-primary my-5">ECONOMICAL SERVICE WITHOUT COMPROMISE.</h1>
-				<p class="text-white">
+				<video width="100%" height="auto" poster="{{ asset('img/vid-poster.png') }}" controls>
+					<source src="{{ asset('vid/turbo-vid.mp4') }}" type="video/mp4"/>
+				</video>
+				<p class="text-white mt-4">
 					<strong>TURBOSTAFF SERVICES</strong> is a sole proprietorship business that provides a full range of messenger services in Metro Manila and some provinces of Luzon, Visayas, and Mindanao that focuses on providing professional, classified, high-quality service, customer satisfaction, and reliable partner for all your needs. We offer economical service without compromising the quality of our service.
 				</p>
 				<p class="text-white">We find ways to improve our ability to add value to our services. We search for every possible opportunity to reduce costs and increase productivity. We take great pride in being a customer-oriented organization, making sure that our customers are satisfied with the tasks we execute for them. Every client is treated not just as customers but as partners, with this approach it has led them to be the preferred vendor for their needs.</p>
@@ -92,7 +95,7 @@
 
 	<div class="banner2">
 		<div class="layer section d-flex align-items-center justify-content-center">
-			<h1 class="text-accent" style="text-shadow: 2px 2px 10px black;">TURBOSTAFF IS TRUE TO SERVICE</h1>
+			<h1 class="text-primary" style="text-shadow: 2px 2px 10px black;">TURBOSTAFF IS ALWAYS TRUE TO SERVICE</h1>
 		</div>
 	</div>
 
@@ -108,7 +111,7 @@
 						<div class="col-2 col-md-2 col-lg-2"><hr class="hr-title"></div>
 					</div>
 				</div>
-				<h1 class="text-center text-primary my-5">WE ALWAYS AIM TO EXCEED CLIENT'S EXPECTATIONS.</h1>
+				<h1 class="text-center text-primary my-5">WE AIM TO EXCEED CLIENT'S EXPECTATIONS.</h1>
 				<p class="text-center text-secondary">No matter what business you have, our team can do everything for you.</p>
 			</div>
 		</div>
@@ -136,6 +139,8 @@
 		</div>
 	</div>
 
+	<img class="group" src="{{ asset('img/group-photo.jpg') }}" alt="Turbostaff employees group photo">
+
 	<div id="contact" class="contact-us section container-fluid">
 		<div class="row justify-content-center mb-4">
 			<div class="col-lg-7">
@@ -160,16 +165,16 @@
 					<hr>
 					<i class="fas fa-phone-alt"></i>
 					<p class="d-inline ms-2">027-980-1411</p><br>
-					<i class="fas fa-phone-alt text-secondary"></i>
+					<i class="fas fa-phone-alt" style="color:white"></i>
 					<p class="d-inline ms-2">0917-962-2205</p><br>
 					<i class="fas fa-envelope"></i>
 					<p class="d-inline ms-2">turbostaff.ph@gmail.com</p><br>
-					<i class="fas fa-envelope text-secondary"></i>
+					<i class="fas fa-envelope" style="color:white"></i>
 					<p class="d-inline ms-2">book@turbostaffservices.com</p><br>
 				</div>
 				<div class="col-md-6 email p-4">
 					<h5 class="mb-3">EMAIL US</h5>
-					<form method="post" action="index.php">
+					<form>
 						<div class="mb-3">
 							<label for="name" class="form-label">Name<span style="color:red">*</span></label>
 							<input type="text" class="form-control" name="name" id="name" required>
@@ -190,17 +195,9 @@
 	</div>
 
 	<!-- FontAwesome -->
+	<script src="{{ asset('js/jquery-3.5.1.min.js') }}"></script>
 	<script src="https://kit.fontawesome.com/34a54bc82b.js" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-	<script src="{{ asset('js/jquery-3.5.1.min.js') }}"></script>
-	<script>
-		$(window).scroll(function() {
-			$(this).scrollTop() > 200 ? $('#arrow').fadeOut() : $('#arrow').fadeIn();
-		});
-
-		if ( window.history.replaceState ) {
-			window.history.replaceState( null, null, window.location.href );
-		}
-	</script>
+	<script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
