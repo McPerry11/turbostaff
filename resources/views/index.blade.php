@@ -35,7 +35,7 @@
 					<a class="nav-link" aria-current="page" href="#who-we-are">WHO WE ARE</a>
 					<a class="nav-link" href="#what-we-offer">WHAT WE OFFER</a>
 					<a class="nav-link" href="#contact">CONTACT</a>
-					<a class="nav-link contact text-accent" href="#contact-nums"><i class="fas fa-phone-alt me-2"></i>027-980-1411</a>
+					<a class="nav-link contact text-accent" href="#contact-nums"><i class="fas fa-phone-alt me-2"></i>028-7980-1411</a>
 				</div>
 			</div>
 		</div>
@@ -165,9 +165,11 @@
 					<p class="text-secondary">Your opinions are important to us. Whether it is a simple question or a valuable suggestion, we are here 24/7. You can call us by phone or email us directly.</p>
 					<hr>
 					<i class="fas fa-phone-alt"></i>
-					<p class="d-inline ms-2">0927-980-1411</p><br>
-					<i class="fas fa-phone-alt" style="color:white"></i>
 					<p class="d-inline ms-2">0917-962-2205</p><br>
+					<i class="fas fa-phone-alt" style="color:white"></i>
+					<p class="d-inline ms-2">0995-661-8000</p><br>
+					<i class="fas fa-phone-alt" style="color:white"></i>
+					<p class="d-inline ms-2">028-7980-1411</p><br>
 					<i class="fas fa-envelope"></i>
 					<p class="d-inline ms-2">turbostaff.ph@gmail.com</p><br>
 					<i class="fas fa-envelope" style="color:white"></i>
