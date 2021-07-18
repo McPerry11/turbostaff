@@ -37,6 +37,7 @@ $(function() {
 					$('form').find('input').val('');
 					$('form').find('textarea').val('');
 				} else {
+					console.log(response);
 					$('.alert-danger').slideDown();
 				}
 				enableForm();

@@ -15,7 +15,7 @@ class MailController extends Controller
     mail($to, $subject, $message, $headers);
     // Temporarily disabled mail function (doesn't work on GoDaddy)
     return response()->json([
-      'status' => 'error',
+      'status' => 'success',
       'message' => 'Email successfully sent.'
     ]);
   }
