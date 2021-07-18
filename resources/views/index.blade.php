@@ -178,7 +178,6 @@
 					<p class="d-inline ms-2">book@turbostaffservices.com</p><br>
 				</div>
 				<div class="col-md-6 email p-4">
-					<div class="alert alert-success"><button type="button" class="btn-close float-end"></button>Email sent successfully!</div>
 					<div class="alert alert-danger"><button type="button" class="btn-close float-end"></button>An error occured while processing your request. Please try again later.</div>
 					<h5 class="mb-3">EMAIL US</h5>
 					<form>
