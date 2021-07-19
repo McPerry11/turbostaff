@@ -161,11 +161,13 @@
 			</div>
 		</div>
 		<div class="container mt-5">
-			<div class="row justify-content-center">
-				<div class="col-md-6 p-5">
-					<h2 id="contact-nums" class="text-secondary">Contact Us</h2>
+			<div class="row justify-content-between">
+				<h2 id="contact-nums" class="text-secondary">Contact Us</h2>
+				<div class="col-md-7">
 					<p class="text-secondary">Your opinions are important to us. Whether it is a simple question or a valuable suggestion, we are here 24/7. You can call us by phone or email us directly.</p>
-					<hr>
+				</div>
+				<hr class="d-md-none">
+				<div class="border-separator col-md-5 mb-3">
 					<i class="fas fa-phone-alt"></i>
 					<p class="d-inline ms-2">0917-962-2205</p><br>
 					<i class="fas fa-phone-alt" style="color:white"></i>
@@ -177,28 +179,11 @@
 					<i class="fas fa-envelope" style="color:white"></i>
 					<p class="d-inline ms-2">book@turbostaffservices.com</p><br>
 				</div>
-				<div class="col-md-6 email p-4">
-					<div class="alert alert-danger"><button type="button" class="btn-close float-end"></button>An error occured while processing your request. Please try again later.</div>
-					<h5 class="mb-3">EMAIL US</h5>
-					<form>
-						<div class="mb-3">
-							<label for="name" class="form-label">Name<span style="color:red">*</span></label>
-							<input type="text" class="form-control" name="name" id="name" required>
-						</div>
-						<div class="mb-3">
-							<label for="email" class="form-label">Email<span style="color:red">*</span></label>
-							<input type="email" class="form-control" name="email" id="email" required>
-						</div>
-						<div class="mb-3">
-							<label for="message" class="form-label">Your Message<span style="color:red">*</span></label>
-							<textarea class="form-control" name="message" id="message" rows="3" required></textarea>
-						</div>
-						<div class="d-grid"><button type="submit" class="btn btn-primary rounded-pill fw-bolder">SUBMIT</button></div>
-					</form>
-				</div>
+				<img src="{{ asset('img/motorcycle2.jpg') }}" class="img-fluid" alt="Turbostaff Employee" loading="lazy">
 			</div>
 		</div>
 	</div>
+	<footer class="mt-auto text-center">Copyright©{{ now()->year }} TurboStaff Services</footer>
 
 	<!-- FontAwesome -->
 	<script src="{{ asset('js/jquery-3.5.1.min.js') }}"></script>
