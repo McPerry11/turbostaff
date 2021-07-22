@@ -54,7 +54,6 @@ h6 {
 	opacity: 0.6;
 }
 
-
 @media only screen and (max-width: 992px) {
 	.navbar {
 		padding-left: 0;
@@ -63,7 +62,7 @@ h6 {
 }
 
 .banner {
-	background-image: url('../img/box.jpg');
+	background-image: url('../img/box-resized.jpg');
 	background-position: center center;
 	/*background-attachment: fixed;*/
 	background-size: cover;
@@ -97,7 +96,7 @@ h6 {
 }
 
 .banner2 {
-	background-image: url('../img/motorcycle1.jpg');
+	background-image: url('../img/motorcycle1-resized.jpg');
 	height: 80vh;
 	background-size: cover;
 	background-position: top;
@@ -109,7 +108,7 @@ h6 {
 }
 
 .what-we-offer {
-	padding-bottom: 13em;
+	/*padding-bottom: 10em;*/
 }
 .what-we-offer .hr-title {
 	border-top: 2px solid #4c4845;
@@ -141,11 +140,10 @@ h6 {
 }
 
 @media only screen and (min-width: 768px) {
-	.border-separator {
+	.border-seperator {
 		border-left: 1px solid #1072B0;
 	}
 }
-
 
 /*bootstrap*/
 .bg-primary {
