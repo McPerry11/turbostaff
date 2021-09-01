@@ -61,9 +61,7 @@
 					</div>
 				</div>
 				<h1 class="text-center text-primary my-5">ECONOMICAL SERVICE WITHOUT COMPROMISE.</h1>
-				<video width="100%" height="auto" poster="{{ asset('img/vid-poster.jpg') }}" preload="metadata" controls>
-					<source src="{{ asset('vid/turbo-vid.mp4') }}" type="video/mp4">
-					</video>
+				<video width="100%" height="auto" src="{{ asset('vid/turbo-vid.mp4') }}" poster="{{ asset('img/vid-poster.jpg') }}" preload="auto" type="video/mp4" controls>
 					<p class="text-white mt-4">
 						<strong>TURBOSTAFF SERVICES</strong> is a sole proprietorship business that provides a full range of messenger services in Metro Manila and some provinces of Luzon, Visayas, and Mindanao that focuses on providing professional, classified, high-quality service, customer satisfaction, and reliable partner for all your needs. We offer economical service without compromising the quality of our service.
 					</p>
